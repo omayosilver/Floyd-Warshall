@@ -9,6 +9,6 @@ In this experiment we performed the Floyd-Warshall algorithm using parallel prog
    -compile with: gcc -fopenmp flody.c -o flody
    - Run with: ./flody
   
-3. For MPI program floydmpi.c
+3. For MPI program flodympi.c
    - compile with: mpicc flodympi.c -o flodympi
    - Run with: mpirun -np 4 ./flodympi           // 4 is the Number of processors
